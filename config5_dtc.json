@@ -1,0 +1,15 @@
+{
+"ImageId": "ami-da4e7fbf",
+"KeyName": "node_fabric_1",
+"InstanceType": "r3.large",
+"Placement": {
+"AvailabilityZone":  "us-east-2b"
+},
+"NetworkInterfaces":[{
+   "DeviceIndex": 0,
+  "NetworkInterfaceId": "eni-89bc4bdd"
+}],
+"IamInstanceProfile": {
+"Arn":     "arn:aws:iam::086111378455:instance-profile/ethereum"
+}
+}
